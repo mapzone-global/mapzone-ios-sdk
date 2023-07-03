@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Mapbox",
             url: "https://github.com/vietmap-company/maps-sdk-ios/raw/main/Mapbox.xcframework.zip",
-            checksum: "7c4f43ce0c545bf2ce2dd642551e8c1689cfe0679f65454586c7387254603cd2") 
+            checksum: "76d93f7f4376cae8b4139726d80854901e17f1f4f51bfcd51df3b661d8d986a3") 
             ]
 )
