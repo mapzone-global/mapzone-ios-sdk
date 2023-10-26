@@ -6,7 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "VietMap",
-            targets: ["VietMap"])
+            targets: ["Mapbox"])
     ],
     dependencies: [
     ],    
