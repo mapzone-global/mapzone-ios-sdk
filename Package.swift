@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "VietMap",
+    name: "MapZone",
     products: [
         .library(
-            name: "VietMap",
+            name: "MapZone",
             targets: ["Mapbox"])
     ],
     dependencies: [
@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Mapbox",
-            url: "https://github.com/vietmap-company/maps-sdk-ios/raw/main/VietMap.xcframework.zip",
-            checksum: "356f31d9626d9a6e4f6282b4a90ae46bd9373f9011467a67114d7cb41460f8bd") 
+            url: "https://github.com/mapzone-global/mapzone-ios-sdk/raw/main/MapZone.xcframework.zip",
+            checksum: "e840b41117856c17d62c1fee271d3bfc4db8a702f41914ec7d97874795ed2011") 
             ]
 )
