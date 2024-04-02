@@ -1,0 +1,6 @@
+framework module MapZone {
+  umbrella header "MapZone.h"
+  export *
+
+  module * { export * }
+}
