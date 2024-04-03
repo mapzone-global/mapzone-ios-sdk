@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'MapZone'
-    s.version           = '1.2.2'
+    s.version           = '1.0.2'
     s.summary           = 'MapZone Maps'
     s.homepage          = 'https://github.com/mapzone-global'
 
