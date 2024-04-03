@@ -8,7 +8,22 @@ jobs:
   build:
     runs-on: macOS-latest
     steps:
-      - uses: actions/checkout@v1 
+      - name: Checkout code
+        uses: actions/checkout@v1 
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+            GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }} 
+        with:
+            tag_name: ${{ github.ref }}
+            release_name: Release ${{ github.ref }}
+            body: |
+                Changes in this Release
+                - Release ${{ github.ref }} 
+            draft: false
+            prerelease: false
       - name: Validate CocoaPod
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPOD_PASSWORD_LOGIN }}
