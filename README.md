@@ -1,5 +1,5 @@
 # MapZone
-
+[https://cocoapods.org/pods/MapZone](https://cocoapods.org/pods/MapZone)
 ## SDK MAP FOR IOS
 
 ## Get checksum of framework
