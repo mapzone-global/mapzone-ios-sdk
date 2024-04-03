@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|  
     s.name              = 'MapZone'
-    s.version           = '1.0.4'
+    s.version           = '1.0.5'
     s.summary           = 'MapZone Maps'
     s.homepage          = 'https://github.com/mapzone-global'
 
-    s.author            = { 'ThanhDT' => 'thanhdt@vietmap.vn' }
+    s.author            = { 'Map.Zone' => 'thanhdt@vietmap.vn' }
     s.license = { :type => "MIT", :text => "MIT License" }
 
     s.platform          = :ios
